@@ -21,7 +21,8 @@ document.getElementById('btn-submit').addEventListener('click',function(){
         window.location.href='bank.html';
     }
     else{
-        console.log('Invalid User');
-        window.location.href='bank.html';
+        // console.log('Invalid User');
+        // window.location.href='bank.html';
+        alert('Please! enter valid password');
     }
 })
